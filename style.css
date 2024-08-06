@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    /* display: flex;
+    /* justify-content: center;
+    width: 100%;*/
+    align-items: center; 
+    margin-left:630px; 
+    margin-top: 20px;
+    height: 300px;
+    /* flex-direction: column;  */
+ }
+
+body{
+    background-color: #669BBC;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100px;
+    gap: 0.5rem;
+}
+.box{
+    transition: transform 1s;
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100px;
+    height: 100px;
+    color: black;
+    
+    background-color: #A8C686;
+    /* margin-bottom: 70px; */
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    margin-left: 50rem;
+}
+.reset1{
+    background-color: #F3A712;
+    border-radius: 15px;
+    margin-left: 780px;
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width:100px;
+    height: 50px;
+    color: white;
+}
+
+.new1{
+    background-color: #F3A712;
+    border-radius: 15px;
+    width:100px;
+    height: 50px;
+    color: white;
+    margin-left: 780px;
+    margin-top: 40px;
+}
+.win{
+    /* display:none; */
+    display: flex;
+
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 15px;
+    /* width:; */
+    /* height: 10px; */
+    color: #29335C;
+    /* margin-left: 740px; */
+    margin-top: 20px;
+    /* display: none; */
+}
+
+.hide{
+    display: none;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    color: white;
+    background-color: #FFAA00;
+    transition: transform 1s;
+    margin-top: 50px;
+}
+.use:hover{
+    background-color: #669BBC;
+    transform: scale(1.1);
+}
+
+.final{
+    width: 100%;
+    height: 50px;
+    background-color: #131c30;
+    margin-top: 130px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
